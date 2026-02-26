@@ -1,13 +1,14 @@
-from config import get_api_key
-#from pyvis.network import pyvis
 import requests
 import json
 from pathlib import Path
+from config import get_api_key
+#from pyvis.network import pyvis
 
 API_KEY = get_api_key()
 BASE_URL = "https://www.robotevents.com/api/v2"
 
 def get_event_by_sku(sku: str):
+    """Gets an event via RECF SKU"""
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Accept": "application/json"
@@ -19,10 +20,14 @@ def get_event_by_sku(sku: str):
     r.raise_for_status()
     return r.json()
 
+def get_event_id(sku: str) -> int:
+    pass
+
 def save_json(data: dict, filename: str):
     Path("data").mkdir(exist_ok=True)   # create /data if missing
     with open(f"data/{filename}", "w") as f:
         json.dump(data, f, indent=2)
 
-event = get_event_by_sku("RE-VRC-23-1488")
-save_json(event, "RE-VRC-23-1488.json")
+sku = "RE-VRC-23-1488"
+event = get_event_by_sku(sku)
+save_json(event, f"{sku}.json")

@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "current_page": 1,
+    "first_page_url": "https://www.robotevents.com/api/v2/events?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "https://www.robotevents.com/api/v2/events?page=1",
+    "next_page_url": null,
+    "path": "https://www.robotevents.com/api/v2/events",
+    "per_page": 25,
+    "prev_page_url": null,
+    "to": 1,
+    "total": 1
+  },
+  "data": [
+    {
+      "id": 51488,
+      "sku": "RE-VRC-23-1488",
+      "name": "Ignite the Northwest VRC Signature Event (HS/MS)",
+      "start": "2024-01-13T00:00:00-05:00",
+      "end": "2024-01-15T00:00:00-05:00",
+      "season": {
+        "id": 181,
+        "name": "VRC 2023-2024: Over Under",
+        "code": null
+      },
+      "program": {
+        "id": 1,
+        "name": "VEX V5 Robotics Competition",
+        "code": "V5RC"
+      },
+      "location": {
+        "venue": "Microsoft Conference Center",
+        "address_1": "16070 Northeast 36th Way",
+        "address_2": null,
+        "city": "Redmond",
+        "region": "Washington",
+        "postcode": "98052",
+        "country": "United States",
+        "coordinates": {
+          "lat": 47.642943,
+          "lon": -122.125516
+        }
+      },
+      "locations": {
+        "2024-01-13": {
+          "venue": "Microsoft Conference Center",
+          "address_1": "16070 Northeast 36th Way",
+          "address_2": null,
+          "city": "Redmond",
+          "region": "Washington",
+          "postcode": "98052",
+          "country": "United States",
+          "coordinates": {
+            "lat": 47.642943,
+            "lon": -122.125516
+          }
+        }
+      },
+      "divisions": [
+        {
+          "id": 1,
+          "name": "North Division",
+          "order": 1
+        },
+        {
+          "id": 2,
+          "name": "West Division",
+          "order": 2
+        },
+        {
+          "id": 100,
+          "name": "Overall Finals",
+          "order": 100
+        }
+      ],
+      "level": "Signature",
+      "ongoing": false,
+      "awards_finalized": true,
+      "event_type": null
+    }
+  ]
+}
