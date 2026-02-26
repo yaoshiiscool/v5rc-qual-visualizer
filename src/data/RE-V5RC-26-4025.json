@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "current_page": 1,
+    "first_page_url": "https://www.robotevents.com/api/v2/events?page=1",
+    "from": 1,
+    "last_page": 1,
+    "last_page_url": "https://www.robotevents.com/api/v2/events?page=1",
+    "next_page_url": null,
+    "path": "https://www.robotevents.com/api/v2/events",
+    "per_page": 25,
+    "prev_page_url": null,
+    "to": 1,
+    "total": 1
+  },
+  "data": [
+    {
+      "id": 64025,
+      "sku": "RE-V5RC-26-4025",
+      "name": "2026 VEX Robotics World Championship: VEX V5 Robotics Competition High School Event",
+      "start": "2026-04-21T00:00:00-04:00",
+      "end": "2026-04-24T00:00:00-04:00",
+      "season": {
+        "id": 197,
+        "name": "VEX V5 Robotics Competition 2025-2026: Push Back",
+        "code": null
+      },
+      "program": {
+        "id": 1,
+        "name": "VEX V5 Robotics Competition",
+        "code": "V5RC"
+      },
+      "location": {
+        "venue": "America's Center Convention Complex",
+        "address_1": "701 Convention Plaza",
+        "address_2": null,
+        "city": "St. Louis",
+        "region": "Missouri",
+        "postcode": "63101",
+        "country": "United States",
+        "coordinates": {
+          "lat": 38.631034,
+          "lon": -90.190918
+        }
+      },
+      "locations": {
+        "2026-04-21": {
+          "venue": "America's Center Convention Complex",
+          "address_1": "701 Convention Plaza",
+          "address_2": null,
+          "city": "St. Louis",
+          "region": "Missouri",
+          "postcode": "63101",
+          "country": "United States",
+          "coordinates": {
+            "lat": 38.631034,
+            "lon": -90.190918
+          }
+        }
+      },
+      "divisions": [
+        {
+          "id": 1,
+          "name": "Default",
+          "order": 1
+        }
+      ],
+      "level": "World",
+      "ongoing": false,
+      "awards_finalized": false,
+      "event_type": null
+    }
+  ]
+}
