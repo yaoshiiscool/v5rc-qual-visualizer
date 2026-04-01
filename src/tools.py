@@ -1,6 +1,6 @@
-import requests
 import json
 from pathlib import Path
+import requests
 from config import get_api_key
 #from pyvis.network import pyvis
 
